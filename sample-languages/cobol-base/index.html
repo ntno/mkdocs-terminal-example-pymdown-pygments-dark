@@ -10,7 +10,7 @@
     
     <meta name="author" content="ntno"> 
     
-    <link rel="canonical" href="https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments-dark/sample-languages/javascript-base/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+    <link rel="canonical" href="https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments-dark/sample-languages/cobol-base/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
 <link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
 <link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
@@ -20,7 +20,7 @@
 
     
  
-<title>Javascript - mkdocs-terminal dark theme with PyMdown and Pygments</title>
+<title>Cobol - mkdocs-terminal dark theme with PyMdown and Pygments</title>
 
 
 <link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
@@ -262,23 +262,35 @@
 </aside>
             <main id="terminal-mkdocs-main-content">
 <section id="mkdocs-terminal-content">
-    <h1 id="javascript">Javascript<a class="headerlink" href="#javascript" title="Anchor link to this section for reference">#</a></h1>
+    <h1 id="cobol">Cobol<a class="headerlink" href="#cobol" title="Anchor link to this section for reference">#</a></h1>
 <h2 id="block-highlighting">Block Highlighting<a class="headerlink" href="#block-highlighting" title="Anchor link to this section for reference">#</a></h2>
 <p>Language highlighting can be enabled with PyMdown and Pygments by adding a <a href="https://pygments.org/languages/">supported programming language</a> name directly after the first <code>```</code> grouping in a Markdown code block:</p>
-<div class="highlight" style="background: #0d1117"><pre style="line-height: 125%;"><span></span><code><span style="color: #ff7b72">let</span><span style="color: #6e7681"> </span><span style="color: #e6edf3">score1</span><span style="color: #6e7681"> </span><span style="color: #ff7b72; font-weight: bold">=</span><span style="color: #6e7681"> </span><span style="color: #a5d6ff">2</span><span style="color: #e6edf3">;</span>
-<span style="color: #ff7b72">let</span><span style="color: #6e7681"> </span><span style="color: #e6edf3">score2</span><span style="color: #6e7681"> </span><span style="color: #ff7b72; font-weight: bold">=</span><span style="color: #6e7681"> </span><span style="color: #a5d6ff">5</span><span style="color: #e6edf3">;</span>
-<span style="color: #ff7b72">let</span><span style="color: #6e7681"> </span><span style="color: #e6edf3">averageScore</span><span style="color: #6e7681"> </span><span style="color: #ff7b72; font-weight: bold">=</span><span style="color: #6e7681"> </span><span style="color: #e6edf3">(score1</span><span style="color: #6e7681"> </span><span style="color: #ff7b72; font-weight: bold">+</span><span style="color: #6e7681"> </span><span style="color: #e6edf3">score2)</span><span style="color: #6e7681"> </span><span style="color: #ff7b72; font-weight: bold">/</span><span style="color: #6e7681"> </span><span style="color: #a5d6ff">2.0</span>
-<span style="color: #e6edf3">console.log(averageScore)</span>
+<div class="highlight" style="background: #0d1117"><pre style="line-height: 125%;"><span></span><code><span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">      </span><span style="color: #8b949e; font-style: italic">*&gt; setup the identification division</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">      </span><span style="color: #ff7b72">IDENTIFICATION</span><span style="color: #6e7681"> </span><span style="color: #ff7b72">DIVISION</span><span style="color: #e6edf3">.</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">      </span><span style="color: #8b949e; font-style: italic">*&gt; setup the program id</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">      </span><span style="color: #ff7b72">PROGRAM-ID</span><span style="color: #e6edf3">.</span><span style="color: #6e7681"> </span><span style="color: #79c0ff">HELLO</span><span style="color: #e6edf3">.</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">      </span><span style="color: #8b949e; font-style: italic">*&gt; setup the procedure division</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">      </span><span style="color: #ff7b72">PROCEDURE</span><span style="color: #6e7681"> </span><span style="color: #ff7b72">DIVISION</span><span style="color: #e6edf3">.</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">        </span><span style="color: #8b949e; font-style: italic">*&gt; print a string</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">        </span><span style="color: #ff7b72">DISPLAY </span><span style="color: #a5d6ff">&#39;HELLO WORLD&#39;</span><span style="color: #e6edf3">.</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">      </span><span style="color: #8b949e; font-style: italic">*&gt; end our program</span>
+<span style="color: #8b949e; font-style: italic">      </span><span style="color: #6e7681">      </span><span style="color: #ff7b72">STOP</span><span style="color: #6e7681"> </span><span style="color: #79c0ff">RUN</span><span style="color: #e6edf3">.</span>
 </code></pre></div>
 <h3 id="block-markdown">Block Markdown<a class="headerlink" href="#block-markdown" title="Anchor link to this section for reference">#</a></h3>
-<div class="highlight" style="background: #0d1117"><pre style="line-height: 125%;"><span></span><code>```javascript
-let score1 = 2;
-let score2 = 5;
-let averageScore = (score1 + score2) / 2.0
-console.log(averageScore)
+<div class="highlight" style="background: #0d1117"><pre style="line-height: 125%;"><span></span><code>```cobol
+            *&gt; setup the identification division
+            IDENTIFICATION DIVISION.
+            *&gt; setup the program id
+            PROGRAM-ID. HELLO.
+            *&gt; setup the procedure division
+            PROCEDURE DIVISION.
+              *&gt; print a string
+              DISPLAY &#39;HELLO WORLD&#39;.
+            *&gt; end our program
+            STOP RUN.
 ```
 </code></pre></div>
-<p>Script adapted from Austin Asoluka's <a href="https://www.freecodecamp.org/news/how-to-use-variables-and-data-types-in-javascript/">"How to Use Variables and Data Types in JavaScript – Explained With Code Examples"</a></p>
+<p>Script adapted from Yvan Scher's <a href="https://medium.com/@yvanscher/7-cobol-examples-with-explanations-ae1784b4d576">"7 cobol examples with explanations"</a></p>
 </section>
 
             </main>
